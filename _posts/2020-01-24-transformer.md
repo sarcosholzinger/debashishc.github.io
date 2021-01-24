@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Transformer" (Draft)
+title: Attention with Transformer
 output: pdf_document
 usemathjax: true
 ---
