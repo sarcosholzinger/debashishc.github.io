@@ -1,6 +1,8 @@
 ---
+layout: post
 title: "Transformer" (Draft)
 output: pdf_document
+usemathjax: true
 ---
 
 
