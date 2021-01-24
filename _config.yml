@@ -6,7 +6,7 @@
 name: Debashish C
 
 # Short bio or description (displayed in the header)
-description: Machine Learning Practitioner, BERTengineer
+description: Machine Learning Practitioner, BERTengineer lol
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
@@ -73,7 +73,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Build settings
-  markdown: kramdown
+  # markdown: kramdown
 
 # Use the following plug-ins
 gems:
