@@ -73,7 +73,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Build settings
-  # markdown: kramdown
+markdown: kramdown
 
 # Use the following plug-ins
 gems:
