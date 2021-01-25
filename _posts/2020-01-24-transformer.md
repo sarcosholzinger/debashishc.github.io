@@ -41,8 +41,7 @@ Attention, at its core,
 
 Simple attention calculation
 
-
-$$ 
+$$
 similarity\_score (x_i, x_j) = x_i \cdot x_j 
 $$
 
@@ -56,7 +55,6 @@ $$
 y_i = \sum_{j \leq i} w_{i,j} x_j
 $$
 
-
 ## Query, Key and Value parameters
 
 $$ q_i = W^Q x_i; \quad k_i = W^K x_i; \quad v_i = W^V x_i $$
@@ -67,17 +65,13 @@ $$ y_i = \sum_{j \leq i} \alpha_{i, j} v_j $$
 
 $$ score(x_i, x_j) = \frac{q_i \cdot k_j}{\sqrt{d_k}} $$
 
-
 ## Final formulation
 
 $$ Q = W^Q X; \quad K = W^K X; \quad V = W^D X $$
 
 $$ SelfAttention(Q, K, V) = \text{softmax} (\frac{Q K^T}{\sqrt{d_k}}) V $$
 
-
-
-
-# Model Architecture
+# Model Architecture 
 
 ## Masking
 
